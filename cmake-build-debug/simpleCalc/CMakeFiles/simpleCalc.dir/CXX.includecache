@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../simpleCalc/include/calc.h
+
+/Users/bart/CLionProjects/JiPPv2/simpleCalc/src/calc.cpp
+calc.h
+/Users/bart/CLionProjects/JiPPv2/simpleCalc/src/calc.h
+iostream
+-
+
+/Users/bart/CLionProjects/JiPPv2/simpleCalc/src/main.cpp
+iostream
+-
+cstring
+-
+calc.h
+/Users/bart/CLionProjects/JiPPv2/simpleCalc/src/calc.h
+

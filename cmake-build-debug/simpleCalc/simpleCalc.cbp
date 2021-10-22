@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="simpleCalc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\Lab3\;CMake Files\Lab3\tablice\;CMake Files\Lab3\trycatch\;CMake Files\Lab3\wskazniki\;CMake Files\simpleCalc\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleCalc">
+				<Option output="/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/simpleCalc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/bart/CLionProjects/JiPPv2/simpleCalc/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 simpleCalc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleCalc/fast">
+				<Option output="/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/simpleCalc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/bart/CLionProjects/JiPPv2/simpleCalc/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 simpleCalc/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bart/CLionProjects/JiPPv2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/bart/CLionProjects/JiPPv2/simpleCalc/include/calc.h">
+			<Option target="simpleCalc"/>
+		</Unit>
+		<Unit filename="/Users/bart/CLionProjects/JiPPv2/simpleCalc/src/calc.cpp">
+			<Option target="simpleCalc"/>
+		</Unit>
+		<Unit filename="/Users/bart/CLionProjects/JiPPv2/simpleCalc/src/main.cpp">
+			<Option target="simpleCalc"/>
+		</Unit>
+		<Unit filename="/Users/bart/CLionProjects/JiPPv2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/bart/CLionProjects/JiPPv2/allocation_basics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\allocation_basics\"/>
+		</Unit>
+		<Unit filename="/Users/bart/CLionProjects/JiPPv2/Lab3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab3\"/>
+		</Unit>
+		<Unit filename="/Users/bart/CLionProjects/JiPPv2/Lab3/tablice/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab3\tablice\"/>
+		</Unit>
+		<Unit filename="/Users/bart/CLionProjects/JiPPv2/Lab3/trycatch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab3\trycatch\"/>
+		</Unit>
+		<Unit filename="/Users/bart/CLionProjects/JiPPv2/Lab3/wskazniki/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Lab3\wskazniki\"/>
+		</Unit>
+		<Unit filename="/Users/bart/CLionProjects/JiPPv2/simpleCalc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\simpleCalc\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
