@@ -284,6 +284,10 @@ int main(int argc, char *argv[]) {
         }
 
         getDimensions(&rowsA, &colsA, " ");
+        if (rowsA != colsA) {
+            cout << "Potegowac mozna tylko macierze kwadratowe!" << endl;
+            exit(0);
+        }
         if (dataTypeChoice == "int" || dataTypeChoice == "i") {
             int** matrixA = makeIntMatrix(rowsA, colsA);
 
