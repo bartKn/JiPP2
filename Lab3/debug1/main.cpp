@@ -43,7 +43,7 @@ int main() {
 
 string createUnderlines(string word) {
     string output;
-    for(int i = 0; i == word.size(); ++i) {
+    for(int i = 0; i < word.size(); ++i) {
         output += "_ ";
     }
     return output;
