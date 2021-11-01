@@ -1,5 +1,6 @@
 #include <iostream>
 #include "../header/Cuboid.h"
+#include "../header/Sphere.h"
 
 using namespace std;
 
@@ -17,10 +18,12 @@ void zad1() {
 }
 
 void zad2() {
-
+    Sphere sphere;
+    sphere.setRadius(2);
+    cout << "Obj kuli o promieniu " << sphere.getRadius() << " = " << sphere.volume() << endl;
 }
 
 int main() {
-    zad1();
+    //zad1();
     zad2();
 }

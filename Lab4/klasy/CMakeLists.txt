@@ -7,4 +7,6 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(klasy
         src/main.cpp
         src/Cuboid.cpp
-        header/Cuboid.h)
+        header/Cuboid.h
+        src/Sphere.cpp
+        header/Sphere.h)
