@@ -9,4 +9,6 @@ add_executable(klasy
         src/Cuboid.cpp
         header/Cuboid.h
         src/Sphere.cpp
-        header/Sphere.h)
+        header/Sphere.h
+        src/QuadraticFunction.cpp
+        header/QuadraticFunction.h)
