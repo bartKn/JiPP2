@@ -3,10 +3,11 @@
 #include "../header/Sphere.h"
 #include "../header/QuadraticFunction.h"
 #include "../header/Student.h"
+#include "../header/Point.h"
 
 using namespace std;
 
-void zad1() {
+void zad2_1() {
     Cuboid cuboid;
     cout << "Pole powierzchni: " << cuboid.calculateSurface() << endl << endl;
     cout << "Zmiana wartosci" << endl;
@@ -19,13 +20,13 @@ void zad1() {
     cout << "Pole powierzchni: " << cuboid.calculateSurface() << endl;
 }
 
-void zad2() {
+void zad2_2() {
     Sphere sphere;
     sphere.setRadius(2);
     cout << "Obj kuli o promieniu " << sphere.getRadius() << " = " << sphere.volume() << endl;
 }
 
-void zad3() {
+void zad2_3() {
     int a, b, c;
     QuadraticFunction function;
     cout << "a = ";
@@ -40,7 +41,7 @@ void zad3() {
     function.printFunction();
 }
 
-void zad4() {
+void zad2_4() {
     Student student;
     student.setName("Bart");
     student.setSurname("Kn");
@@ -53,9 +54,25 @@ void zad4() {
     cout << "\nWynik - " << student.percentageScore() << "%\n";
 }
 
+void zad5_1() {
+    pointData pnt1, pnt2;
+    pnt1.xCoordinate = 2;
+    pnt1.yCoordinate = 5;
+    pnt2.xCoordinate = 5;
+    pnt2.yCoordinate = 9;
+    Point point(pnt1, pnt2);
+    cout << point.lenght();
+}
+
+void zad5_2() {
+
+}
+
 int main() {
-    //zad1();
-    //zad2();
-    //zad3();
-    zad4();
+    //zad2_1();
+    //zad2_2();
+    //zad2_3();
+    //zad2_4();
+    //zad5_1();
+    zad5_2();
 }
