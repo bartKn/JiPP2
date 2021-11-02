@@ -2,6 +2,7 @@
 #include "../header/Cuboid.h"
 #include "../header/Sphere.h"
 #include "../header/QuadraticFunction.h"
+#include "../header/Student.h"
 
 using namespace std;
 
@@ -37,11 +38,24 @@ void zad3() {
     function.setB(b);
     function.setC(c);
     function.printFunction();
+}
 
+void zad4() {
+    Student student;
+    student.setName("Bart");
+    student.setSurname("Kn");
+    student.setID(12345);
+    student.setNumOfQuestions(56);
+    student.setNumOfCorrectAnswers(37);
+    cout << "Imie - " << student.getName();
+    cout << "\nNazwisko - " << student.getSurname();
+    cout << "\nNumer - " << student.getIDnumber();
+    cout << "\nWynik - " << student.percentageScore() << "%\n";
 }
 
 int main() {
     //zad1();
     //zad2();
-    zad3();
+    //zad3();
+    zad4();
 }

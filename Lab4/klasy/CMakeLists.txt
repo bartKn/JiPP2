@@ -11,4 +11,6 @@ add_executable(klasy
         src/Sphere.cpp
         header/Sphere.h
         src/QuadraticFunction.cpp
-        header/QuadraticFunction.h)
+        header/QuadraticFunction.h
+        src/Student.cpp
+        header/Student.h)
