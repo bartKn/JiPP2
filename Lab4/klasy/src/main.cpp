@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 #include "../header/Cuboid.h"
 #include "../header/Sphere.h"
 #include "../header/QuadraticFunction.h"
@@ -54,15 +55,22 @@ void zad2_4() {
     cout << "\nWynik - " << student.percentageScore() << "%\n";
 }
 
-void zad5_1() {
-    pointData pnt1, pnt2;
-    pnt1.xCoordinate = 2;
-    pnt1.yCoordinate = 5;
-    pnt2.xCoordinate = 5;
-    pnt2.yCoordinate = 9;
-    Point point(pnt1, pnt2);
-    cout << point.lenght();
+float length(Point pnt1, Point pnt2) {
+    return sqrt(pow((pnt1.getX() - pnt2.getX()), 2) + pow((pnt1.getY() - pnt2.getY()), 2));
 }
+
+void zad5_1() {
+    Point point1(2, 5);
+    Point point2(5, 9);
+    cout << length(point1, point2) << endl;
+    point1.setX(0);
+    point1.setY(0);
+    point2.setX(3);
+    point2.setY(4);
+    cout << length(point1, point2);
+}
+
+
 
 void zad5_2() {
 
@@ -73,6 +81,6 @@ int main() {
     //zad2_2();
     //zad2_3();
     //zad2_4();
-    //zad5_1();
-    zad5_2();
+    zad5_1();
+    //zad5_2();
 }

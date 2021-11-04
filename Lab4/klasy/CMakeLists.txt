@@ -15,4 +15,6 @@ add_executable(klasy
         src/Student.cpp
         header/Student.h
         src/Point.cpp
-        header/Point.h)
+        header/Point.h
+        src/Figure.cpp
+        header/Figure.h)
