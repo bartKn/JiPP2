@@ -1,10 +1,11 @@
 #include <iostream>
 #include <math.h>
-#include "../header/Cuboid.h"
-#include "../header/Sphere.h"
-#include "../header/QuadraticFunction.h"
-#include "../header/Student.h"
-#include "../header/Point.h"
+#include "Cuboid.h"
+#include "Sphere.h"
+#include "QuadraticFunction.h"
+#include "Student.h"
+#include "Point.h"
+#include "Figure.h"
 
 using namespace std;
 
@@ -73,7 +74,9 @@ void zad5_1() {
 
 
 void zad5_2() {
-
+    Figure figure1(4);
+    figure1.setData();
+    figure1.printData();
 }
 
 int main() {
@@ -81,6 +84,6 @@ int main() {
     //zad2_2();
     //zad2_3();
     //zad2_4();
-    zad5_1();
-    //zad5_2();
+    //zad5_1();
+    zad5_2();
 }
