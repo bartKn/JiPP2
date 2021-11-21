@@ -6,8 +6,10 @@
 
 class Node {
 private:
-    friend double pointsDistance(Node& a , Node& b);
     double x, y;
+
+protected:
+    friend double pointsDistance(Node& a , Node& b);
 
 public:
     Node();
@@ -16,6 +18,10 @@ public:
     void display();
 
     void updateValue(double x, double y);
+
+    double getX() const;
+
+    double getY() const;
 };
 
 

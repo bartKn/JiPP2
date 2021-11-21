@@ -22,3 +22,11 @@ void Node::updateValue(double x, double y) {
 double pointsDistance(Node& a, Node& b) {
     return sqrt(pow((a.x - b.x), 2.0) + pow((a.y - b.y), 2.0));
 }
+
+double Node::getX() const {
+    return x;
+}
+
+double Node::getY() const {
+    return y;
+}
