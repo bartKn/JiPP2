@@ -1,11 +1,16 @@
 #ifndef JIPPV2_VECTOR_H
 #define JIPPV2_VECTOR_H
 
+#include <iostream>
 #include <math.h>
+
+using namespace std;
 
 class Vector{
 private:
     double x, y;
+    friend Vector operator*(const double& lhs, const Vector& rhs);
+    friend ostream& operator<<(ostream& os, const Vector& v);
 
 public:
     Vector();

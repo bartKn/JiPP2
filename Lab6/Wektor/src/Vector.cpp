@@ -39,9 +39,20 @@ Vector Vector::operator*(const double& s) const {
     return Vector(this->x * s, this->y * s);
 }
 
+Vector operator*(const double &lhs, const Vector &rhs) {
+    return Vector(rhs.x * lhs, rhs.y * lhs);
+}
+
 double Vector::operator&(const Vector &rhs) const {
     return ((this->x * rhs.x) + (this->y * rhs.y));
 }
+
+ostream& operator<<(ostream &os, const Vector &v) {
+    os << "[ " << v.x << ", " << v.y << " ]" << endl;
+    return os;
+}
+
+
 
 
 

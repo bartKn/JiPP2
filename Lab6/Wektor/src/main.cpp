@@ -29,16 +29,16 @@ int main() {
     double result = v1 & v2;
     cout << result << endl;
 
-
-
-
-
     cout << "v1 == v2 ";
-    if (v1==v2) {
-        cout << "true" << endl;
-    } else {
-        cout << "false" << endl;
-    }
+    if (v1==v2) cout << "true" << endl;
+    else cout << "false" << endl;
+
+    cout << "przeciazanie <<" << endl;
+
+    cout << "v1.print() - ";
+    v1.print();
+    cout << "cout << v1 - ";
+    cout << v1;
 
 
 }
